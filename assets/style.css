@@ -46,7 +46,6 @@ body {
 .w-100 {
 	height: 100%;
 }
-
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -96,7 +95,6 @@ body {
 }
 #about-me p {
 	width: 500px;
-	height: 90px;
 	font-size: 100%;
 }
 
@@ -375,7 +373,7 @@ input[type="submit"] {
 		width: 100%;
 	}
 	.picture img {
-		min-width: 200px;
+		min-width: 350px;
 		max-width: 350px;
 		width: 100%;
 		height: 100%;
@@ -383,6 +381,7 @@ input[type="submit"] {
 	#about-me h3, #about-me p {
 		min-width: 150px;
 		max-width: 265px;
+		margin-bottom: 50px;
 	}
 }
 

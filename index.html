@@ -395,7 +395,7 @@ textarea {
 	<link rel="preload" href="./assets/bootstrap/bootstrap.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 	<noscript><link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css"></noscript>
 	<!-- <link rel="stylesheet" defer href="./assets/bootstrap/bootstrap.css">  -->
-	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="stylesheet" async href="./assets/style.css">
 	<!-- <link rel="preconnect" defer href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet"> -->
@@ -437,7 +437,7 @@ textarea {
                  ./assets/images/slider/businessman-ryoji-iwata-wUZjnOv7t0g-unsplash1180.webp?width=1180 1180w,
                  ./assets/images/slider/businessman-ryoji-iwata-wUZjnOv7t0g-unsplash.webp?width=1920 1920w
                 "
-              sizes="(max-width: 650px) 600px,(max-width: 1000px) 900px,(max-width: 1180px) 1100px,(max-width: 1920px) 1800px, 100vh"
+              sizes="(min-width: 2040px) 1920px, calc(94.19vw + 17px)"
               />
               <img src="./assets/images/slider/businessman-ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Homme en costume traversant un large passage piéton">
             </picture>
@@ -484,19 +484,16 @@ textarea {
       </div>
     </div>
   </header>
-  <main>
+  <main id="main">
 <article id="about">
 	<div class="picture left">
     <picture>
       <source
       type="image/webp"
       srcset="
-         ./assets/images/nina.webp?width=650 650w,
-         /assets/images/nina.webp?width=1000 1000w,
-         /assets/images/nina.webp?width=1180 1180w,
-         /assets/images/nina.webp?width=1920 1920w
+         ./assets/images/nina.webp?width=60 600w
          "
-      sizes="(max-width: 500px) 480px, 25vh"
+      sizes="(min-width: 1700px) 470px, (min-width: 1100px) calc(8.62vw + 335px), (min-width: 660px) calc(4.76vw + 369px), (min-width: 520px) 200px, (min-width: 480px) 350px, calc(93.75vw - 81px)"
       style=" aspect-ratio: 1/1;"
       />
       <img src="./assets/images/nina.png" alt="Photo de Nina">
